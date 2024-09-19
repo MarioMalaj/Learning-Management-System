@@ -1,0 +1,48 @@
+# Maven
+.mvn/
+target/
+!target/classes/
+!target/test-classes/
+!target/*.jar
+!target/*.war
+!target/*.zip
+
+# Eclipse and IntelliJ IDEA
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+application.properties
+application.yml
+
+# Database files
+*.sql
+*.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# IntelliJ
+*.iws
+*.iml
+*.ipr
+
+# VSCode
+.vscode/
+
+# Node.js dependencies
+node_modules/
+
+# Dependency directories
+/.mvn/wrapper/
